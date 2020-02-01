@@ -1,0 +1,48 @@
+{
+  "products": [
+    { 
+      "id": 1 ,
+      "product": "Full cobertura",
+      "sellIn": 10,
+      "price": 12,
+      "craateAt": "01/02/2020",
+      "updateAt": "0"
+    },
+    { 
+      "id": 2 ,
+      "product": "Mega cobertura",
+      "sellIn": 10,
+      "price": 12,
+      "craateAt": "01/02/2020",
+      "updateAt": "0"
+    },
+    { 
+      "id": 3 ,
+      "product": "Full cobertura Super duper",
+      "sellIn": 15,
+      "price": 12,
+      "craateAt": "01/02/2020",
+      "updateAt": "0"
+    },
+    { 
+      "id": 4 ,
+      "product": "Super avance",
+      "sellIn": 10,
+      "price": 12,
+      "craateAt": "01/02/2020",
+      "updateAt": "0"
+    },
+    { 
+      "id": 5 ,
+      "product": "Mega cobertura",
+      "sellIn": 10,
+      "price": 180,
+      "craateAt": "01/02/2020",
+      "updateAt": "0"
+    }
+  ],  
+  "sold_products": [
+      { "id": 1, "product": "Full cobertura" },
+      { "id": 3, "product": "CobeFull cobertura Super duperrtura" }
+    ]
+  }

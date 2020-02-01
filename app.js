@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const Ddos  = require ( 'ddos' ) 
-const { logRequest, logError } = require('./config/config-logs');
+const { logRequest, logError } = require('./app/config/config-logs');
 
 //Initialize our app variable
 const app = express();
@@ -23,9 +23,8 @@ app.use(cors());
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
-/* not get request */
+// not get request
 app.get('/', (req, res) => {
-
     res.send("Invalid page");
 });
 
