@@ -56,9 +56,6 @@ class BaseController{
     getObjects(url, res){
         var options = {
             uri: url,
-            headers: {
-                'User-Agent': 'Request-Promise'
-            },
             json: true
         };
         rp(options)
@@ -124,7 +121,6 @@ class BaseController{
                 });
             });
     }
-
 
 }
 
