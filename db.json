@@ -5,7 +5,7 @@
       "product": "Full cobertura",
       "sellIn": 10,
       "price": 12,
-      "craateAt": "01/02/2020",
+      "createAt": "01/02/2020",
       "updateAt": "0"
     },
     {
@@ -13,7 +13,7 @@
       "product": "Mega cobertura",
       "sellIn": 10,
       "price": 12,
-      "craateAt": "01/02/2020",
+      "createAt": "01/02/2020",
       "updateAt": "0"
     },
     {
@@ -21,7 +21,7 @@
       "product": "Full cobertura Super duper",
       "sellIn": 15,
       "price": 12,
-      "craateAt": "01/02/2020",
+      "createAt": "01/02/2020",
       "updateAt": "0"
     },
     {
@@ -29,7 +29,7 @@
       "product": "Super avance",
       "sellIn": 10,
       "price": 12,
-      "craateAt": "01/02/2020",
+      "createAt": "01/02/2020",
       "updateAt": "0"
     },
     {
@@ -37,13 +37,15 @@
       "product": "Mega cobertura",
       "sellIn": 10,
       "price": 180,
-      "craateAt": "01/02/2020",
+      "createAt": "01/02/2020",
       "updateAt": "0"
     },
     {
       "product": "Nuevo Producto TEST",
       "sellIn": 56,
       "price": 18,
+      "craateAt": "2020-02-02T00:21:24.023Z",
+      "updateAt": "2020-02-02T00:22:07.247Z",
       "id": 6
     }
   ],
@@ -51,12 +53,14 @@
     {
       "id": 1,
       "idProduct": 1,
-      "product": "Full cobertura"
+      "product": "Full cobertura",
+      "createAt": "01/02/2020"
     },
     {
       "id": 2,
       "idProduct": 3,
-      "product": "Full cobertura Super duper"
+      "product": "Full cobertura Super duper",
+      "createAt": "01/02/2020"
     }
   ]
 }

@@ -8,7 +8,6 @@ const saveObject = (req, res) => {
     ...req.body,
     createAt : new Date()
   };
-  console.log(product);
   return base.saveObject(`${Urls.baseUrlBD}${Urls.pathAvailableProducts}`, product, res);
 }
 
@@ -21,6 +20,7 @@ const updateObject = (req, res) => {
   let id = req.params.id;
   let product = {
     ...req.body,
+    updateAt: new Date(),
     id: id
   };
   return base.updateObject(`${Urls.baseUrlBD}${Urls.pathAvailableProductsbyId}`, product, id, res);
