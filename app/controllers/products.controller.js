@@ -2,7 +2,6 @@ const BaseController = require("./base.controller");
 const Urls = require("../config/configUrl");
 const Product = require("../models/products.model");
 
-
 let base = new BaseController();
 
 const saveObject = (req, res) => {

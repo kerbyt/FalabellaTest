@@ -39,21 +39,6 @@
       "createdAt": "2020-02-02T00:21:24.023Z",
       "updatedAt": "",
       "id": 5
-    },
-    {
-      "product": "Nuevo Producto TEST",
-      "sellIn": 56,
-      "price": 18,
-      "craatedAt": "2020-02-02T00:21:24.023Z",
-      "updatedAt": "2020-02-02T00:22:07.247Z",
-      "id": 6
-    },
-    {
-      "product": "Nuevo Producto TEST",
-      "sellIn": 14,
-      "price": 34,
-      "createdAt": "2020-02-02T01:35:39.605Z",
-      "id": 7
     }
   ],
   "sold_products": [
@@ -72,10 +57,9 @@
       "id": 2
     },
     {
-      "productId": 1,
+      "productId": "1",
       "product": "Full cobertura",
-      "craatedAt": "2020-02-02T00:21:24.023Z",
-      "updatedAt": "",
+      "updatedAt": "2020-02-02T01:38:34.795Z",
       "id": 3
     },
     {
