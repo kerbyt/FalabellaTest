@@ -1,15 +1,41 @@
 const BaseController = require("./base.controller");
 const Urls = require("../config/configUrl");
 const SoldProduct = require("../models/sold-products.model");
+const axios = require('axios');
 
 let base = new BaseController();
 
-const saveObject = (req, res) => {
-  let soldProduct = new SoldProduct({
-    ...req.body,
-    createdAt : new Date()
-  });
-  return base.saveObject(`${Urls.baseUrlBD}${Urls.pathSoldProducts}`, soldProduct, res);
+const saveObject = async (req, res) => {
+
+  let products = await axios.get(`${Urls.baseUrlBD}${Urls.pathAvailableProducts}`);
+  products = products.data;
+
+  let exist = false;
+  for(let p=0; p < products.length; p++){
+
+    if(parseInt(products[p].id, 10) === parseInt(req.body.productId, 10)){
+      exist = true;
+    }
+
+  }
+
+  if(exist){
+
+    let soldProduct = new SoldProduct({
+      ...req.body,
+      createdAt : new Date()
+    });
+    return base.saveObject(`${Urls.baseUrlBD}${Urls.pathSoldProducts}`, soldProduct, res);
+
+  }else{
+
+    return res.status(404).json({
+      ok: false,
+      message: 'No existe el producto que quiere vender',
+    });
+
+  }
+
 }
 
 const getObject = (req, res) => {
