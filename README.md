@@ -10,6 +10,7 @@ or
 npm run dev
 
 Host: http://localhost:3001
+Postman Collection: Incluido en el directorio del proyeto FalabellaSegurosTest.postman_collection.json
 ```
 
 # Instalacion Docker
@@ -20,4 +21,5 @@ sudo docker run -p 49160:3001 <your_name>/falabella:1.0
 
 Host: http://localhost:49160
 
-```
+Postman Collection: Incluido en el directorio del proyeto FalabellaSegurosTest.postman_collection.json
+
