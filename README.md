@@ -23,3 +23,13 @@ Host: http://localhost:49160
 
 Postman Collection: Incluido en el directorio del proyeto FalabellaSegurosTest.postman_collection.json
 
+```
+
+# Test
+
+```
+ npm test
+ npm test -- --coverage
+
+```
+
