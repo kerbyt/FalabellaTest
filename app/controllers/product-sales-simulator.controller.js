@@ -2,9 +2,6 @@ const BaseController = require("./base.controller");
 const Urls = require("../config/configUrl");
 const axios = require('axios');
 
-let base = new BaseController();
-
-
 const getSimulation = async (req, res) => {
   try {
 

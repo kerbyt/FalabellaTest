@@ -1,5 +1,5 @@
 const resource = 'products';
-const controller = require('../controllers/products.controller');
+const controller = require('../controllers/product.controller');
 module.exports = ( router) => {
     router.get(`/${resource}/:id`, controller.getObject)
     router.get(`/${resource}`, controller.getObjects)
