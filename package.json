@@ -25,7 +25,8 @@
     "express": "^4.17.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.5",
-    "winston": "^3.2.1"
+    "winston": "^3.2.1",
+    "mongoose": "^5.8.9"
   },
   "devDependencies": {
     "concurrently": "^5.1.0",

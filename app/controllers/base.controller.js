@@ -37,7 +37,6 @@ class BaseController{
             },
             json: true
         };
-        console.log(options);
         rp(options)
             .then(function (data) {
                 return res.status(200).json({
@@ -62,7 +61,6 @@ class BaseController{
             },
             json: true
         };
-        console.log(options);
         rp(options)
             .then(function (data) {
                 return res.status(200).json({

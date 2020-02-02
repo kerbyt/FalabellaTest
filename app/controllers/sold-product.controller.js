@@ -1,14 +1,15 @@
 const BaseController = require("./base.controller");
 const Urls = require("../config/configUrl");
+const SoldProduct = require("../models/sold-products.model");
 
 let base = new BaseController();
 
 const saveObject = (req, res) => {
-  let product = {
+  let soldProduct = new SoldProduct({
     ...req.body,
-    createAt : new Date()
-  };
-  return base.saveObject(`${Urls.baseUrlBD}${Urls.pathSoldProducts}`, product, res);
+    createdAt : new Date()
+  });
+  return base.saveObject(`${Urls.baseUrlBD}${Urls.pathSoldProducts}`, soldProduct, res);
 }
 
 const getObject = (req, res) => {
@@ -18,12 +19,12 @@ const getObject = (req, res) => {
 
 const updateObject = (req, res) => {
   let id = req.params.id;
-  let product = {
+  let soldProduct = new SoldProduct({
     ...req.body,
-    updateAt: new Date(),
+    updatedAt: new Date(),
     id: id
-  };
-  return base.updateObject(`${Urls.baseUrlBD}${Urls.pathSoldProductsById}`, product, id, res);
+  });
+  return base.updateObject(`${Urls.baseUrlBD}${Urls.pathSoldProductsById}`, soldProduct, id, res);
 }
 
 const getObjects = (req, res) => {

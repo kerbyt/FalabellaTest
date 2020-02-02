@@ -4,72 +4,85 @@
       "product": "Full cobertura",
       "sellIn": 10,
       "price": 12,
-      "createAt": "2020-02-02T00:21:24.023Z",
-      "updateAt": "",
+      "createdAt": "2020-02-02T00:21:24.023Z",
+      "updatedAt": "",
       "id": 1
     },
     {
       "product": "Mega cobertura",
       "sellIn": 10,
       "price": 12,
-      "createAt": "2020-02-02T00:21:24.023Z",
-      "updateAt": "",
+      "createdAt": "2020-02-02T00:21:24.023Z",
+      "updatedAt": "",
       "id": 2
     },
     {
       "product": "Full cobertura Super duper",
       "sellIn": 15,
       "price": 12,
-      "createAt": "2020-02-02T00:21:24.023Z",
-      "updateAt": "",
+      "createdAt": "2020-02-02T00:21:24.023Z",
+      "updatedAt": "",
       "id": 3
     },
     {
       "product": "Super avance",
       "sellIn": 10,
       "price": 12,
-      "createAt": "2020-02-02T00:21:24.023Z",
-      "updateAt": "",
+      "createdAt": "2020-02-02T00:21:24.023Z",
+      "updatedAt": "",
       "id": 4
     },
     {
       "product": "Mega cobertura",
       "sellIn": 10,
       "price": 180,
-      "createAt": "2020-02-02T00:21:24.023Z",
-      "updateAt": "",
+      "createdAt": "2020-02-02T00:21:24.023Z",
+      "updatedAt": "",
       "id": 5
     },
     {
       "product": "Nuevo Producto TEST",
       "sellIn": 56,
       "price": 18,
-      "craateAt": "2020-02-02T00:21:24.023Z",
-      "updateAt": "2020-02-02T00:22:07.247Z",
+      "craatedAt": "2020-02-02T00:21:24.023Z",
+      "updatedAt": "2020-02-02T00:22:07.247Z",
       "id": 6
+    },
+    {
+      "product": "Nuevo Producto TEST",
+      "sellIn": 14,
+      "price": 34,
+      "createdAt": "2020-02-02T01:35:39.605Z",
+      "id": 7
     }
   ],
   "sold_products": [
     {
       "productId": 1,
       "product": "Full cobertura",
-      "createAt": "2020-02-02T00:21:24.023Z",
-      "updateAt": "",
+      "createdAt": "2020-02-02T00:21:24.023Z",
+      "updatedAt": "",
       "id": 1
     },
     {
       "productId": 3,
       "product": "Full cobertura Super duper",
-      "createAt": "2020-02-02T00:21:24.023Z",
-      "updateAt": "",
+      "createdAt": "2020-02-02T00:21:24.023Z",
+      "updatedAt": "",
       "id": 2
     },
     {
       "productId": 1,
       "product": "Full cobertura",
-      "craateAt": "2020-02-02T00:21:24.023Z",
-      "updateAt": "",
+      "craatedAt": "2020-02-02T00:21:24.023Z",
+      "updatedAt": "",
       "id": 3
+    },
+    {
+      "productId": "1",
+      "product": "Full cobertura",
+      "createdAt": "2020-02-02T01:35:23.783Z",
+      "id": 4
     }
   ]
 }
