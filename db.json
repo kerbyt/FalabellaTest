@@ -1,44 +1,44 @@
 {
   "products": [
     {
-      "id": 1,
       "product": "Full cobertura",
       "sellIn": 10,
       "price": 12,
-      "createAt": "01/02/2020",
-      "updateAt": "0"
+      "createAt": "2020-02-02T00:21:24.023Z",
+      "updateAt": "",
+      "id": 1
     },
     {
-      "id": 2,
       "product": "Mega cobertura",
       "sellIn": 10,
       "price": 12,
-      "createAt": "01/02/2020",
-      "updateAt": "0"
+      "createAt": "2020-02-02T00:21:24.023Z",
+      "updateAt": "",
+      "id": 2
     },
     {
-      "id": 3,
       "product": "Full cobertura Super duper",
       "sellIn": 15,
       "price": 12,
-      "createAt": "01/02/2020",
-      "updateAt": "0"
+      "createAt": "2020-02-02T00:21:24.023Z",
+      "updateAt": "",
+      "id": 3
     },
     {
-      "id": 4,
       "product": "Super avance",
       "sellIn": 10,
       "price": 12,
-      "createAt": "01/02/2020",
-      "updateAt": "0"
+      "createAt": "2020-02-02T00:21:24.023Z",
+      "updateAt": "",
+      "id": 4
     },
     {
-      "id": 5,
       "product": "Mega cobertura",
       "sellIn": 10,
       "price": 180,
-      "createAt": "01/02/2020",
-      "updateAt": "0"
+      "createAt": "2020-02-02T00:21:24.023Z",
+      "updateAt": "",
+      "id": 5
     },
     {
       "product": "Nuevo Producto TEST",
@@ -51,16 +51,25 @@
   ],
   "sold_products": [
     {
-      "id": 1,
-      "idProduct": 1,
+      "productId": 1,
       "product": "Full cobertura",
-      "createAt": "01/02/2020"
+      "createAt": "2020-02-02T00:21:24.023Z",
+      "updateAt": "",
+      "id": 1
     },
     {
-      "id": 2,
-      "idProduct": 3,
+      "productId": 3,
       "product": "Full cobertura Super duper",
-      "createAt": "01/02/2020"
+      "createAt": "2020-02-02T00:21:24.023Z",
+      "updateAt": "",
+      "id": 2
+    },
+    {
+      "productId": 1,
+      "product": "Full cobertura",
+      "craateAt": "2020-02-02T00:21:24.023Z",
+      "updateAt": "",
+      "id": 3
     }
   ]
 }
