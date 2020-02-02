@@ -4,6 +4,9 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const Ddos  = require ( 'ddos' ) 
 const { logRequest, logError } = require('./app/config/config-logs');
+const services = require('./app/services')(express);
+const routes = require('./app/routes')(services);
+
 
 //Initialize our app variable
 const app = express();
@@ -27,6 +30,9 @@ app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 app.get('/', (req, res) => {
     res.send("Invalid page");
 });
+
+/* Routes App */
+app.use('/api/v1/',routes);
 
 const port = process.env.PORT || 3001;
 

@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "concurrently --kill-others \"json-server --watch db.json\" \"node server.j\"",
-    "dev": "concurrently --kill-others \"json-server --watch db.json\" \"nodemon --watch server.j\""
+    "dev": "concurrently --kill-others \"json-server --watch db.json\" \"nodemon --watch server.j\"",
+    "test": "concurrently --kill-others \"nodemon --watch server.j\""
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
     "cors": "^2.8.5",
     "ddos": "^0.2.1",
     "express": "^4.17.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
     "winston": "^3.2.1"
   },
   "devDependencies": {
